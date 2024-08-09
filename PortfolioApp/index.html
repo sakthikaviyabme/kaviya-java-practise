@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skillset">Skillset</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about" class="container mt-5">
+        <h2>About Me</h2>
+        <p>Brief introduction about yourself.</p>
+    </section>
+
+    <section id="projects" class="container mt-5">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Description of project 1.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="project2.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Description of project 2.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="project3.jpg" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">Description of project 3.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="container mt-5">
+        <h2>Education</h2>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bachelor of Science in Computer Science</td>
+                    <td>ABC University</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td>Master of Science in Software Engineering</td>
+                    <td>XYZ University</td>
+                    <td>2022</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="skillset" class="container mt-5 mb-5">
+        <h2>Skillset</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Programming Languages</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">JavaScript <span class="badge badge-primary badge-pill">Advanced</span></li>
+                    <li class="list-group-item">Python <span class="badge badge-primary badge-pill">Intermediate</span></li>
+                    <li class="list-group-item">Java <span class="badge badge-primary badge-pill">Intermediate</span></li>
+                    <li class="list-group-item">C++ <span class="badge badge-primary badge-pill">Basic</span></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4>Web Technologies</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">HTML5 <span class="badge badge-primary badge-pill">Advanced</span></li>
+                    <li class="list-group-item">CSS3 <span class="badge badge-primary badge-pill">Advanced</span></li>
+                    <li class="list-group-item">React <span class="badge badge-primary badge-pill">Intermediate</span></li>
+                    <li class="list-group-item">Bootstrap <span class="badge badge-primary badge-pill">Advanced</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h4>Tools & Platforms</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">Git <span class="badge badge-primary badge-pill">Advanced</span></li>
+                    <li class="list-group-item">Docker <span class="badge badge-primary badge-pill">Intermediate</span></li>
+                    <li class="list-group-item">AWS <span class="badge badge-primary badge-pill">Basic</span></li>
+                    <li class="list-group-item">Linux <span class="badge badge-primary badge-pill">Intermediate</span></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4>Soft Skills</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">Communication <span class="badge badge-primary badge-pill">Advanced</span></li>
+                    <li class="list-group-item">Teamwork <span class="badge badge-primary badge-pill">Advanced</span></li>
+                    <li class="list-group-item">Problem-solving <span class="badge badge-primary badge-pill">Intermediate</span></li>
+                    <li class="list-group-item">Time Management <span class="badge badge-primary badge-pill">Intermediate</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container text-center">
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
